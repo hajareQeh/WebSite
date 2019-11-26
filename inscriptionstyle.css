@@ -1,0 +1,67 @@
+form{
+	background :url(insc.jpeg) no-repeat;
+	background-attachment: absolute;
+	background-size: auto;
+ 	font-size:100%;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+fieldset {
+	margin-left:400px;
+	margin-top:100px;
+	width:620px;
+	
+ }
+
+#holder{
+		display: flex;
+		 justify-content: space-between;
+}
+#logo-img:nth-child(2){
+	align-self: center;
+	
+}
+#logo-img img{
+	width: 300px;
+	height: 300px;
+}
+fieldset {
+ 	padding:0 20px 60px 20px;
+ 	margin-bottom:10px;
+	border: 5px solid #5A4119;
+
+	
+ }
+
+
+legend {
+ 	color:#C17D11;
+	font-family: 'BallparkWeiner', serif;
+	font-size: 2.5em;
+    font-weight: normal;
+ }
+
+label {
+ 	margin-top:20px;
+ 	display:block;
+ }
+
+input{
+ 	padding:3px;
+	 border:1px solid #C17D11;
+	 border-radius:5px;
+	 width:200px;
+	 box-shadow:1px 1px 2px #5A4119 inset;
+ }
+
+input[type=submit], input[type=reset] {
+ 	 width:100px;
+	 margin-left:5px;
+	 box-shadow:1px 1px 1px #5A4119;
+	 cursor:pointer;
+ }
+p:nth-child(2){
+	align-self: center;
+}
